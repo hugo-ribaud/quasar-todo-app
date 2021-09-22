@@ -138,7 +138,6 @@ export default defineComponent({
     const leftDrawerOpen = ref(true)
 
     return {
-      essentialLinks:
       leftDrawerOpen,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value
